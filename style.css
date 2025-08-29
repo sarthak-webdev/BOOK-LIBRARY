@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #0c7c59;
+  color: #fff;
+      height: 225px;
+}
+header .logo {
+  font-size: 60px;
+  font-weight: bold;
+}
+header nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+header .icons span {
+  margin-left: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+.hero-text h1 {
+  font-size: 40px;
+  color: #0c7c59;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #0c7c59;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.section-title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 28px;
+  color: #0c7c59;
+}
+.book-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.book {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+.book img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+}
+.stars {
+  color: gold;
+  margin-top: 5px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  background: #f1f1f1;
+  padding: 20px;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0c7c59;
+  color: white;
+  margin-top: 20px;
+}
